@@ -19,7 +19,7 @@ This repository contains 2 Dockerfiles, a Linux container and a Windows containe
 To build the Windows image locally and publish to ACR, run the following command:
 
 ```docker
-docker build -f Dockerfile.windows -t dotnetcore-docs-hello-world-windows . 
+docker build -f Dockerfile.windows -t dotnetcore-docs-hello-world-windows .
 docker tag dotnetcore-docs-hello-world-windows <your_registry_name>.azurecr.io/dotnetcore-docs-hello-world-windows:latest
 docker push <your_registry_name>.azurecr.io/dotnetcore-docs-hello-world-windows:latest
 ```
@@ -29,7 +29,7 @@ docker push <your_registry_name>.azurecr.io/dotnetcore-docs-hello-world-windows:
 To build the Windows image locally and publish to ACR, run the following command:
 
 ```docker
-docker build -f Dockerfile.linux -t dotnetcore-docs-hello-world-linux . 
+docker build -f Dockerfile.linux -t dotnetcore-docs-hello-world-linux .
 docker tag dotnetcore-docs-hello-world-windows <your_registry_name>.azurecr.io/dotnetcore-docs-hello-world-linux:latest
 docker push <your_registry_name>.azurecr.io/dotnetcore-docs-hello-world-linux:latest
 ```
@@ -37,3 +37,9 @@ docker push <your_registry_name>.azurecr.io/dotnetcore-docs-hello-world-linux:la
 # Contributing
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
+
+1. Log into Tian's outlook
+2. Go into subscription 2
+3. Go into Resources
+4. Go into palepeak app service
