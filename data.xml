@@ -9,7 +9,6 @@
   <!-- Google analytics ID: -->
   <analytics></analytics>
 
-<!--
   <phone></phone>
   <address>
     <line>
@@ -30,7 +29,6 @@
     </social>
   </socials>
 
-  -->
   <description>Hello! I am Bobby Wang, or Palepeak. I am the indie dev working on Emberlings.</description>
 
   <!-- Choose between a single block: -->

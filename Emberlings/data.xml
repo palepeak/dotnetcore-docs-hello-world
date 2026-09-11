@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+  <title>Emberlings</title>
+  <release-date>2028</release-date>
+  <website></website>
+
+  <!-- Link to request press copy:
+  <press-copy-request></press-copy-request>
+-->
+  <platforms>
+    <platform>
+      <name>PC</name>
+    </platform>
+  </platforms>
+
+  <prices>
+    <price>
+      <currency></currency>
+      <value></value>
+    </price>
+  </prices>
+
+  <description>
+    Emberlings is a roguelite dungeon crawler about commanding your Emberling army to conquer sunless dungeons.
+    Emberlings uniquely combines fast paced action with “Pikmin” style creature management while offering great roguelite progression.
+  </description>
+
+  <!-- Choose between a single block: -->
+  <history>Built from a love for games like Enter the Gungeon, Pikmin, and Moonlighter. Started in 2024.</history>
+
+  <!-- Or multiple blocks: -->
+  <!--
+  <histories>
+    <history>
+      <header></header>
+      <text></text>
+    </history>
+  </histories>
+  -->
+
+  <features>
+    <feature>Throw Emberlings in fast-paced gunfights.</feature>
+    <feature>Collect treasures and multiply your Emberlings.</feature>
+    <feature>Use your Emberlings to explore challenging dungeons and clear obstacles.</feature>
+    <feature>Face off against challenging bullet hell enemies.</feature>
+    <feature>Use your treasures to build out a camp.</feature>
+  </features>
+
+  <trailers>
+    <trailer>
+      <name>Gameplay reel</name>
+
+      <!-- Pick one: -->
+      <youtube>L61Ud-SVYmQ</youtube>
+    </trailer>
+  </trailers>
+
+  <!-- You can set your widgets here (optional):
+  <widgets>
+      <Steam ID
+        <steam>
+        e.g. 424242
+      </steam>
+  </widgets>
+-->
+<!--
+  <awards>
+    <award>
+      <description></description>
+      <info></info>
+    </award>
+  </awards>
+
+  <quotes>
+    <quote>
+      <description></description>
+      <name></name>
+      <website></website>
+      <link></link>
+    </quote>
+  </quotes>
+
+  <additionals>
+    <additional>
+      <title></title>
+      <description></description>
+      <link></link>
+    </additional>
+  </additionals>
+-->
+  <credits>
+    <credit>
+      <person>Bobby Wang</person>
+      <role>Developer</role>
+    </credit>
+    <credit>
+      <person>JerryPie</person>
+      <role>Pixel Artist</role>
+      <!-- Optional: -->
+      <website>https://pixeljoint.com/p/7604.htm</website>
+    </credit>
+    <credit>
+      <person>Devin Yang</person>
+      <role>Concept Artist</role>
+      <!-- Optional: -->
+      <website>https://devinscribbles.com/</website>
+    </credit>
+  </credits>
+
+  <contacts>
+    <contact>
+      <name>My email</name>
+      <!-- Pick one: -->
+      <mail>contact@palepeak.com</mail>
+    </contact>
+  </contacts>
+</product>
