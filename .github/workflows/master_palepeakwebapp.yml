@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Create zip
-        run: rm build.zip;cd build/;zip -r ../build.zip *;cd ..
+        run: rm -f build.zip;cd build/;zip -r ../build.zip *;cd ..
 
       - name: Login to Azure
         uses: azure/login@v2
