@@ -23,11 +23,10 @@ jobs:
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_2E98135E56FD4D4AB1677046E8B44A2B }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_8EA014249E8441FDA3A3883FAE7CF1B1 }}
 
-      - name: Deploy to Azure Web App
-        id: deploy-to-webapp
-        uses: azure/webapps-deploy@v3
+      - name: Run Azure CLI Action
+        uses: azure/cli@v2
         with:
-          app-name: 'palepeakwebapp'
-          slot-name: 'Production'
-          package: .
+          azcliversion: latest # Or specify a precise version like 2.50.0
+          inlineScript: |
+            az webapp deploy --subscription d7c55ae9-d903-4ef2-b455-88474b75fa73 --name palepeakwebapp --resource-group bobby --src-path build.zip
           
