@@ -1,1 +1,1 @@
-presskit build
+presskit build --pretty-links
