@@ -1,24 +1,14 @@
 {
   "name": "dotnetcore-docs-hello-world",
-  "version": "1.0.0",
-  "description": "This sample demonstrates a tiny Hello World .NET Core app for [App Service Web App](https://docs.microsoft.com/azure/app-service-web). This sample can be used in a .NET Azure App Service app as well as in a Custom Container Azure App Service app.",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/palepeak/dotnetcore-docs-hello-world.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/palepeak/dotnetcore-docs-hello-world/issues"
-  },
-  "homepage": "https://github.com/palepeak/dotnetcore-docs-hello-world#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.22.2",
+    "morgan": "^1.12.1"
   }
 }
