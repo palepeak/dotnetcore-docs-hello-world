@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <product>
   <title>Emberlings</title>
-  <release-date>2028</release-date>
+  <release-dates>
+    <release-date>TBA</release-date>
+  </release-dates>
   <website></website>
 
   <!-- Link to request press copy:
@@ -15,18 +17,23 @@
 
   <prices>
     <price>
-      <currency></currency>
-      <value></value>
+      <currency>USD</currency>
+      <value>TBD</value>
     </price>
   </prices>
 
   <description>
+    Pikmin with guns!
     Emberlings is a roguelite dungeon crawler about commanding your Emberling army to conquer sunless dungeons.
-    Emberlings uniquely combines fast paced action with “Pikmin” style creature management while offering great roguelite progression.
+    Emberlings combines gameplay from <b>Enter the Gungeon</b> and <b>Pikmin</b> while offering great roguelite progression.
   </description>
 
   <!-- Choose between a single block: -->
-  <history>Built from a love for games like Enter the Gungeon, Pikmin, and Moonlighter. Started in 2024.</history>
+  <history>
+    Emberlings is the first game created by Palepeak.
+    Built from a love for games like Enter the Gungeon, Pikmin, and Moonlighter.
+    Started in 2024.
+  </history>
 
   <!-- Or multiple blocks: -->
   <!--
@@ -39,11 +46,11 @@
   -->
 
   <features>
-    <feature>Throw Emberlings in fast-paced gunfights.</feature>
-    <feature>Collect treasures and multiply your Emberlings.</feature>
-    <feature>Use your Emberlings to explore challenging dungeons and clear obstacles.</feature>
-    <feature>Face off against challenging bullet hell enemies.</feature>
-    <feature>Use your treasures to build out a camp.</feature>
+    <feature>Shoot your Emberlings with a gun! Spread light and fire across the environment to overcome challenging gunfights.</feature>
+    <feature>Use defeated enemies as fuel to create more Emberlings. Amass an unstoppable army and command them to victory.</feature>
+    <feature>As you collect more Emberlings, new paths can be cleared. Use your Emberlings to traverse sprawling dungeons and find efficient ways to get around.</feature>
+    <feature>Test your skills against challenging bosses. Conquer the dungeon to claim special treasures.</feature>
+    <feature>Extract as much treasure as you can during your expeditions. Treasures are used to unlock game altering permanent upgrades.</feature>
   </features>
 
   <trailers>
@@ -51,7 +58,7 @@
       <name>Gameplay reel</name>
 
       <!-- Pick one: -->
-      <youtube>L61Ud-SVYmQ</youtube>
+      <youtube>ftct6Zo6A9c</youtube>
     </trailer>
   </trailers>
 
